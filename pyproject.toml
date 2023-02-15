@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sqldb"
+version = "0.1.0"
+description = ""
+authors = ["coji <coji@techtalk.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.92.0"}
+sqlalchemy = "^2.0.3"
+alembic = "^1.9.3"
+python-dotenv = "^0.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
